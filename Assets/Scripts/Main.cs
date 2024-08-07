@@ -35,6 +35,14 @@ public class Main : MonoBehaviour
             }
         }
     }
+    private void Start()
+    {
+        test();
+    }
+
+    void test() {
+        Debug.Log("------------test-------------");
+    }
 
 
     void ClickObj() {
